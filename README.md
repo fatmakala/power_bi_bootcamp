@@ -21,12 +21,11 @@ Bu projenin amacı, Danone markasına ait satış verilerini analiz ederek kulla
 ### 🛠️ Modelleme
 
 Veri modelinde aşağıdaki ilişkiler kurulmuştur:
- - siparisdetay[ITEMID] → items[ITEMID]
- - siparisdetay[SIPARISID] → siparis[SIPARISID]
- - siparis[KULLANICIID] → kullanıcılar[KULLANICIID]
- - kullanıcılar[ADRESID] → adres[ADRESID]
- - adres[SEHIR] → şehir_bölge[SEHIR]
-
+ - siparisdetay[ITEMID] → ürünler[ID]
+ - siparisdetay[ORDERID] → siparis[ID]
+ - siparis[USERID] → kullanıcılar[ID]
+ - sipariş[ADRESSID] → adres[ID]
+ - adres[CITY] → bölgeler[İl_Büyük]
 
 
 
@@ -50,6 +49,7 @@ Projedeki temel ölçüler sadece Danone markası için filtrelenmiştir:
  - Danone_Erkek_Sayisi
  - Danone_Genc_Ciro
  - Danone_Bolge_Satis_Grafik
+   
 Ek olarak müşteri başına ciro, ortalama sipariş tutarı, saatlik satış gibi hesaplamalar da yapılmıştır.
 
 
@@ -63,16 +63,22 @@ Ek olarak müşteri başına ciro, ortalama sipariş tutarı, saatlik satış gi
 | **Müşteri Perspektifi** | Kadın/erkek sayısı, yaş grubuna göre satış, top 10 müşteri  |
 | **Kategori Perspektifi** | İstanbul + Genç grubunun cirosu → kategori bazlı ağaç haritası  |
 
+
 ![Giriş Sayfası](giriş_sayfası.png)
+
 
 
 ![Özet Sayfası](özet_sayfası.png)
 
 
+
 ![Müşteri Sayfası ](müşteri_sayfası.png)
 
 
+
 ![Kategori Sayfası](kategori_sayfası.png)
+
+
 
 ## 📌 Rapor Özeti
 
@@ -106,7 +112,7 @@ Danone ürünlerini tercih eden kadın müşterilerin oranı, erkek müşteriler
 
 - Ortalama sipariş tutarı, Danone markasında genel ortalamanın biraz üzerinde seyretmiştir.
 
-##📌 Genel Değerlendirme
+## 📌 Genel Değerlendirme
 
 - Danone markası, özellikle büyük şehirlerde yaşayan genç ve kadın müşteriler tarafından sıkça tercih edilmektedir.
 - Satışların zamansal ve demografik yoğunluğu, markanın pazarlama stratejilerinde hedef kitle odaklı kampanyalar oluşturmasına zemin hazırlamaktadır.
@@ -117,7 +123,10 @@ Danone ürünlerini tercih eden kadın müşterilerin oranı, erkek müşteriler
 
 
 
+
+
   > Not: .pbix dosyası GitHub üzerinde büyük olduğu için görüntülenememektedir. Lütfen indirip Power BI Desktop ile açınız.
+
 
 
 
