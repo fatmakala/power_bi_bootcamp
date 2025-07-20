@@ -59,6 +59,9 @@ Bu rapor sayesinde:
 - Bölgelere göre satış dağılımı görselleştirildi  
 - Kategori bazında satış stratejileri oluşturulabilir hale geldi
 
+  > Not: .pbix dosyası GitHub üzerinde büyük olduğu için görüntülenememektedir. Lütfen indirip Power BI Desktop ile açınız.
+
+
 
 ### ✨ Hazırlayan
 
