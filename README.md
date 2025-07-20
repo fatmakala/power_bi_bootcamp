@@ -13,7 +13,7 @@ Bu proje, Power BI kullanarak DANONE markasına ait satış verilerini analiz et
 | `kullanıcılar`    | Müşteri bilgileri (yaş, cinsiyet, şehir)  |
 | `siparis`         | Sipariş bilgileri (tarih, adres, müşteri) |
 | `siparisdetay`    | Ürün ve miktar bilgileri                  |
-| `items`           | Ürün kataloğu (marka, kategori, fiyat)    |
+| `ürünler`         | Ürün kataloğu (marka, kategori, fiyat)    |
 | `adres`           | Şehir ve konum bilgileri                  |
 | `bölgeler`        | Şehir-bölge eşlemesi                     |
 
