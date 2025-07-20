@@ -1,10 +1,10 @@
 
 
-##  Power BI Satış Analizi Projesi
+## DANONE Power BI Satış Analizi Projesi
 
 ### 📌 Proje Amacı
 
-Bu proje, Power BI kullanarak markaların satış verilerini analiz etmek, müşteri davranışlarını anlamak ve kategori bazlı stratejik çıkarımlar sunmak amacıyla hazırlanmıştır. Veriler üzerinde temizlik, modelleme, hesaplamalar ve görselleştirme adımları gerçekleştirilmiştir.
+Bu proje, Power BI kullanarak DANONE markasına ait satış verilerini analiz etmek, müşteri davranışlarını anlamak ve kategori bazlı stratejik çıkarımlar sunmak amacıyla hazırlanmıştır. Veriler üzerinde temizlik, modelleme, hesaplamalar ve görselleştirme adımları gerçekleştirilmiştir.
 
 ### 🗃️ Kullanılan Veriler
 
